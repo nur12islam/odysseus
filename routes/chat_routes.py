@@ -870,6 +870,7 @@ def setup_chat_routes(
 
             # Prevent NameError if explicit web intent wasn't computed.
 _explicit_web_intent = False
+
         # Build disabled-tools set from frontend toggles + user privileges
         disabled_tools = set()
         # Only disable bash/web_search when the caller *explicitly* set them
