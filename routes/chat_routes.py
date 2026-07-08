@@ -869,7 +869,7 @@ def setup_chat_routes(
             _doc_db.close()
 
             # Prevent NameError if explicit web intent wasn't computed.
-_explicit_web_intent = False
+        _explicit_web_intent = False
 
         # Build disabled-tools set from frontend toggles + user privileges
         disabled_tools = set()
